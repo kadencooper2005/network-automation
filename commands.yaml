@@ -1,0 +1,10 @@
+show_commands:
+  - "show ip interface brief"
+  - "show running-config"
+  - "show version"
+
+config_commands:
+  - "interface GigabitEthernet0/1"
+  - "description Configured via Netmiko"
+  - "exit"
+  - "hostname AutomatedDevice"
